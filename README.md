@@ -1,3 +1,4 @@
-# react-basics-lab
+React Basics Labs
+-----------------
 
-# Web App Development 2 Labs
+Repository for covering the basics of React for Web App Development 2
