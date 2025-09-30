@@ -8,6 +8,7 @@ function Task(props) {
             <p className="description">{props.description}</p>
             <p className="priority">{props.priority}</p>
             <button className="doneButton" onClick={props.markDone}>Done</button>
+            <button className='deleteButton' onClick={props.deleteTask}>Delete</button>
         </div>
     );
 }
