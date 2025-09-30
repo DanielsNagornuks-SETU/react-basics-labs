@@ -12,13 +12,13 @@ function App() {
     ]
   });
 
-  const doneHandler = (taskIndex) => {
+  function doneHandler (taskIndex) {
     const tasks = [...taskState.tasks];
     tasks[taskIndex].done = !tasks[taskIndex].done;
     setTaskState({tasks});
   }
 
-  const deleteHandler = (taskIndex) => {
+  function deleteHandler (taskIndex) {
     const tasks = [...taskState.tasks];
     tasks.splice(taskIndex, 1);
     setTaskState({tasks});
